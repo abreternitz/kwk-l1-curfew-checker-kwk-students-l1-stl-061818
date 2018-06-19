@@ -1,9 +1,9 @@
 def curfew_checker(curfew)
   if curfew=="early"
     puts "you're early"
-  else curfew == "late"
+  elsif curfew == "late"
     "you're late"
-  else curfew =="ontime"
+  elsif curfew =="ontime"
     puts "you're ontime"
   end
 end
