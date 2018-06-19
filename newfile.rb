@@ -1,5 +1,5 @@
 def curfew_checker(arrived)
-  arrived - 11=time
+  time =arrived-11
   if arrived>11
     puts "you're #{time}hour(s) late"
   elsif arrived==11
