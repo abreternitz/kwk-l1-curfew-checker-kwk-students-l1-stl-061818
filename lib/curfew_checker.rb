@@ -45,3 +45,5 @@ def platinum_curfew_checker(current_time, curfew_time)
     puts "you're #{arrived} hour(s) early"
 end
 end
+
+def platinum_curfew_checker (10,11)
