@@ -24,7 +24,7 @@ def complex_curfew_checker(time)
     puts "Keep having fun!"
   end
 end
-
+"You have 2 hour(s) left to keep having fun!"
 def deluxe_curfew_checker(time)
   arrived =time-11
   if arrived>11
