@@ -1,8 +1,7 @@
-curfew=11
 def curfew_checker(arrived)
-  if arrived>curfew
+  if arrived>11
     puts "you're hour(s) late"
-  elsif arrived==curfew
+  elsif arrived==11
     puts"you're on time"
   else 
     puts "you're hour(s) early"
