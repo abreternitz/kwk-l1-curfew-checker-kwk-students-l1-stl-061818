@@ -8,4 +8,4 @@ def curfew_checker(curfew)
   end
 end
 
-curfew_checker("early")
+curfew_checker("ontime")
