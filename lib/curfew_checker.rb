@@ -26,9 +26,10 @@ def complex_curfew_checker(time)
 end
 "You have 2 hour(s) left to keep having fun!"
 def deluxe_curfew_checker(time)
+  if time>11
+    "You're in trouble! Better get home quick!"
   
 end
-deluxe_curfew_checker(12)
 
 def platinum_curfew_checker(current_time, curfew_time)
  arrived =current_time-curfew_time
