@@ -11,20 +11,16 @@ def complex_curfew_checker(time)
 end
 
 def deluxe_curfew_checker(time)
-  def curfew_checker(arrived)
   arrived =time-11
   if arrived>11
-    puts "you're #{time}hour(s) late"
-  elsif arrived==11
+    puts "you're #{arrived} hour(s) late"
+  elsif time==11
     puts"you're on time"
   else 
-    puts "you're #{time} hour(s) early"
-  end
+    puts "you're #{arrived} hour(s) early"
 end
-
-curfew_checker(12)
-
 end
+deluxe_curfew_checker(12)
 
 def platinum_curfew_checker(current_time, curfew_time)
   # code goes here
